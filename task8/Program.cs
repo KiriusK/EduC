@@ -1,0 +1,15 @@
+﻿int[] arr = new int[5];
+arr[0] = 5;
+arr[1] = 6;
+arr[2] = 7;
+arr[3] = 1;
+arr[4] = 2;
+Console.Write($"{arr[0]} ");
+Console.Write($"{arr[1]} ");
+Console.Write($"{arr[2]} ");
+Console.Write($"{arr[3]} ");
+Console.Write($"{arr[4]} ");
+//Console.Write($"{arr[5]} ");
+Console.WriteLine(" ");
+int[] arr1 = new int[5] { 3, 4, 5, 2, 1 };
+int[] arr2 = { 1, 2, 5, 7, 3, 6, 8 };
