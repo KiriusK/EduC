@@ -119,7 +119,7 @@ void PrintMas(int[] coll)
 Console.WriteLine("ВВедите число");
 string num = Console.ReadLine()!;//! - убирает предупреждения
 int len = num.Length;
-int m = Convert.ToInt32(num)!;
+int m = Convert.ToInt32(num)!;//! - убирает предупреждения
 int n = Convert.ToInt32(num)!;
 int[] arr = new int[len];
 int i = 0;
